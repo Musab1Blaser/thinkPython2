@@ -9,6 +9,6 @@ total_time_in_seconds = 60 * time_in_minutes + time_in_seconds
 time_in_hours = total_time_in_seconds/3600
 
 speed = miles/time_in_hours
-speed = round(speed)
+speed = round(speed, 2)
 
 print(speed)
