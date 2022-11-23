@@ -1,6 +1,4 @@
 def breakdown(num4):
-    num4 = int(num4)
-
     #find digit value at each position
     thousands = getDigit(num4, 4)
     hundreds = getDigit(num4, 3)
@@ -19,7 +17,7 @@ def getDigit(num4, digitPos):
     digitVal = num4 // (10**(digitPos-1))
     return digitVal
 
-num4 = input()
+num4 = int(input())
 breakdown(num4)
 
 
